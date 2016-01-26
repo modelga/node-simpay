@@ -4,7 +4,7 @@ var simpay = require('./simpay/index.js');
 	key - https://simpay.pl/panel/Client/API
 	secret - https://simpay.pl/panel/Client/API
 */
-var api = new simpay.API({key: 'ec0488c9', secret: 'b37cd0a8054356766e882c3875d1308d', version: '1'});
+var api = new simpay.API({key: '333333333333333333', secret: '2222222222222222', version: '1'});
 
 /*
 	serviceId - identyfikator usługi premium sms
@@ -15,7 +15,7 @@ var api = new simpay.API({key: 'ec0488c9', secret: 'b37cd0a8054356766e882c3875d1
 	errorType - ERROR, USED, OK
 	err - errory przez simpay
 */
-api.getStatus({serviceId: '784', number: '7055', code: 'F713EE'}, function(isOk, errorType, err) {
+api.getStatus({serviceId: '41241', number: '7055', code: 'F713EE'}, function(isOk, errorType, err) {
 	console.log(isOk);
 	console.log(errorType);
 	console.log(err);
