@@ -1,4 +1,4 @@
-var simpay = require('./simpay/index.js');
+var simpay = require('./index.js');
 
 /*
 	key - https://simpay.pl/panel/Client/API
@@ -8,7 +8,7 @@ var api = new simpay.API({key: '333333333333333333', secret: '2222222222222222',
 
 /*
 	serviceId - identyfikator usługi premium sms
-	number - numer na ktory wyslano sms 
+	number - numer na ktory wyslano sms
 	code - kod wprowadzony przez klienta
 
 	isOk - true/false
