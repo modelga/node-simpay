@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: mateusz@odel.ga
+  api_key:
+    secure: blvXjYymxuQlyyXnpcrE/9FJoQyGIrluB+SizMn+UD4zwyjQqzxyJRWPRp0bCn/Su5bqivcVPYz23g/iiCWBtUMTFgu26JsqVTYHNRcalbUgGcP1R+TY4fltb1oWeOFyfAJptQfxZXqIDOuOBumvqpm9BC2GC2hXvJa24xOlQsZE9SsjqiAFh+a1+ABtoMy2GV6B7GeksqszaL0X1wAP7guTTnjbfqqQtrYxg2C9Al4TDtWePIkBZomfvZV/rPAxq1iwljcpl1Y7aa8lcRSdCUftgtd2JLF1m9E/os5cD9T439WQhXswFqUVMcQjFKS9/zKPZPBFjz2xJe1JYhmyjU5MfHkjRxarU6o+TiK4ZAnQbZXoROuiHhVTE1/vRJaPtFBGTd6g8UwJaXkbUjNGrbSr/hiVUMhwJUKxgS29uwLo7b8eiTP77SY+L4qtt1ZfClgyXbA6HQOc69f/fpzJl1VPAcLNsavDgkP0KHwVoCVkWGjCJPECtS5W0CvMDNBCPg91kMWcA1UJ20RNg92c/bmYBc1ADiH33BBx9fkkDr9qynQ2U6b2UznC13JOB4I82bYMd+Sp373SWR7khUgoFFm2gelFRoKG1eCIAVSQK4Y+G44GBLcJy5Ejtj/alwvBpPjeD2p4+giCI7ykIRX4mKYphuPYjxrvHJqQslfzP20=
+  on:
+    repo: modelga/node-simpay

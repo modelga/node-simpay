@@ -1,0 +1,19 @@
+{
+  "name": "node-simpay",
+  "version": "1.0.0",
+  "description": "Simple Simpay.pl API wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modelga/node-simpay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modelga/node-simpay/issues"
+  },
+  "homepage": "https://github.com/modelga/node-simpay#readme"
+}
